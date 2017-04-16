@@ -488,7 +488,8 @@ public class MainActivity extends BaseActivity
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean
+    OptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         if (NetworkUtil.isConnected(this)) {
             if (SettingValues.expandedToolbar) {
@@ -1372,7 +1373,6 @@ public class MainActivity extends BaseActivity
         } catch (Exception e) {
 
         }
-        ImageFlairs.syncFlairs(this,"soccer");
     }
 
     @Override
